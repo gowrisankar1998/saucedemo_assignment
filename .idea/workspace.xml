@@ -10,6 +10,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -21,10 +29,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.C:/Users/Gowrisankar P U/Downloads/New folder (4)/clone/saucedemo_assignment/testng.xml.executor": "Run",
+    "TestNG.C:/Users/Gowrisankar P U/Downloads/New folder (4)/clone/saucedemo_assignment/testng.xml.executor": "Debug",
     "last_opened_file_path": "C:/Users/Gowrisankar P U/Downloads/New folder (4)/clone/saucedemo_assignment"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="utils" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="C:/Users/Gowrisankar P U/Downloads/New folder (4)/clone/saucedemo_assignment/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_Framework" />
@@ -52,5 +65,16 @@
       <updated>1744021225854</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/InventoryPage.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

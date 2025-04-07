@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import utils.CustomElement;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,7 +35,8 @@ public class InventoryPage {
         List<WebElement> priceElements = driver.findElements(itemPrices);
         List<Double> prices = new ArrayList<>();
         for (WebElement price : priceElements) {
-            String priceText = price.getText().replace("$", "").trim();
+            CustomElement priceElement = new CustomElement(price);
+            String priceText = priceElement.getText().replace("$", "");
             prices.add(Double.parseDouble(priceText));
         }
         return prices;
