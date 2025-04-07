@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class LoginTests extends BaseTest {
+public class SauceDemoTest extends BaseTest {
 
     private LoginPage loginPage;
     private InventoryPage inventoryPage;

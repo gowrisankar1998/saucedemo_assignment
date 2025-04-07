@@ -7,7 +7,7 @@
     <test verbose="2" preserve-order="true" name="chromeTest">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="tests.LoginTests">
+            <class name="tests.SauceDemoTest">
                 <methods>
                     <include name="completeCheckoutFlow"/>
                     <include name="verifySortingLowToHigh"/>
