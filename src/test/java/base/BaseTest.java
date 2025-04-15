@@ -8,9 +8,13 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.*;
+
+import java.util.HashMap;
+import java.util.Map;
 
 
 public class BaseTest {
@@ -29,7 +33,9 @@ public class BaseTest {
                 driver = new EdgeDriver();
                 break;
             default:
-                driver = new ChromeDriver();
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--incognito");
+                driver = new ChromeDriver(options);
         }
         driver.manage().window().maximize();
         driver.get("https://www.saucedemo.com/");
